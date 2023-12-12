@@ -1,3 +1,10 @@
+/**
+ * If the number if divisible by 3 and 5, shows "Site Host"
+ * Otherwise, if the number is divisible only by 3, shows "Site"
+ * If the number is divisible only by 5, shows "host"
+ * In any other case, shows the cycle number
+ */
+
 for (let step = 1; step <= 100; step++) {
     const divide3 = step % 3 == 0;
     const divide5 = step % 5 == 0;
